@@ -1,0 +1,50 @@
+1. 理解this指针及其用法
+	（1）每个成员函数的第一个参数都是隐藏的this指针；
+	（2）this指针指向调用对象本身，通过this指针可以修改成员函数；
+	（3）因为有this指针所以针对同一个成员函数，不同对象调用具有不同效果。
+
+2. 理解static数据成员、static成员函数的用法
+	（1）static数据成员存储在静态区；
+	（2）static数据成员初始化必须在类的外部进行；
+	（3）static数据成员被类的所有对象共享。
+
+3. 理解复制构造函数、赋值运算符重载函数
+	（1）复制构造函数在对象进行初始化时调用；
+		A a;
+		B b=a;
+	（2）赋值运算符重载函数在为对象赋值时调用；
+		A a;
+		B b;
+		b=a;
+	（3）在使用赋值运算符重载函数时要注意自复制的情况，还要将对象持有的原有的内存空间释放掉，以免造成内存泄漏。
+
+4. 实现一个String类，保证main函数对正确执行
+
+class String
+{
+public:
+	String();
+	String(const char *pstr);
+	String(const String & rhs);
+	String & operator=(const String & rhs);
+	~String();
+
+	void print();
+
+private:
+	char *pStr_;
+};
+
+int main(void)
+{
+	String str1;
+	String str2 = "Hello,world";
+	String str3 = "wangdao";
+	str2 = str3;
+	String str4 = str3;
+
+	str1.print();
+	str2.print();
+	str3.print();
+	str4.print();
+}
