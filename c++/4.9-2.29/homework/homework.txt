@@ -1,0 +1,25 @@
+
+1. 理解单例模式的实现原理，并掌握，做到随手能够写出来, 
+		并补充单例模式的对象的销毁成员函数destroy();
+
+2. 将Linux下的互斥锁封装成一个MutexLock类，实现互斥锁中的加锁和解锁功能
+
+	class MutexLock
+	{
+	public:
+		MutexLock();
+		~MutexLock();
+		
+		void lock();
+		void unlock();
+	private:
+		//...补充数据成员
+	};
+	
+	
+	class Condition
+	{
+	
+	};
+	
+3. 预习明天的内容，已上传PTT
