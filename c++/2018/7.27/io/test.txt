@@ -1,0 +1,70 @@
+#include <string.h>
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <vector>
+
+using std::cout;
+using std::cin;
+using std::endl;
+using std::vector;
+
+using std::string;
+using std::ifstream;
+using std::ofstream;
+using std::fstream;
+
+vector<string> file;
+
+void test0()
+{
+    ifstream ifs("io2.cc"); //文件输入流要求打开的文件必须存在
+    if(!ifs)
+    {
+        cout<<"ifstream open error!"<<endl;
+        return;
+    }
+
+    string line;
+    //while(ifs>>line)  以空格为分隔符输入内容
+    while(std::getline(ifs,line))   //从输入流获得一行数据
+    {
+        file.push_back(line);
+    }
+
+    for(auto &line:file)
+    {
+        cout<<line<<"\n";
+    }
+
+    ifs.close();
+}
+
+void test1()
+{
+    test0();
+    string filename="test.txt";
+
+    //如果文件不存在，就创建一个；
+    //如果文件已经存在，就清空文件内容，再重新写入。
+    ofstream ofs(filename);
+    if(!ofs.good())
+    {
+        cout<<"ofstream open error"<<endl;
+        return;
+    }
+
+    for(auto &line:file)
+    {
+        ofs<<line<<"\n";
+    }
+}
+
+int main()
+{
+    //test0();
+    test1();
+
+    return 0;
+}
+this is a new line
