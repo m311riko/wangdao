@@ -1,0 +1,12 @@
+2020-04-21 03:10:54,285 [WARN] this is warn message
+2020-04-21 03:10:54,285 [ERROR] this is error message
+2020-04-21 03:10:54,285 [INFO] this is info message
+2020-04-21 03:10:54,285 [DEBUG] this is debug message
+2020-04-21 03:10:54,285 [WARN] [test.cc:test2:28]this is warn message
+2020-04-21 03:10:54,285 [ERROR] [test.cc:test2:29]this is error message
+2020-04-21 03:10:54,286 [INFO] [test.cc:test2:30]this is info message
+2020-04-21 03:10:54,286 [DEBUG] [test.cc:test2:31]this is debug message
+2020-04-21 03:10:54,286 [WARN] [test.cc:test3:36]this is warn message
+2020-04-21 03:10:54,286 [ERROR] [test.cc:test3:37]this is error message
+2020-04-21 03:10:54,286 [INFO] [test.cc:test3:38]this is info message
+2020-04-21 03:10:54,286 [DEBUG] [test.cc:test3:39]this is debug message
