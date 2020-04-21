@@ -1,0 +1,72 @@
+
+
+
+0. 什么是友元？友元的存在形式有？友元有何特点？
+    （1）友元：友元分为友元函数和友元类，是被关键字friend修饰的函数和类；
+    （2）形式：友元成员函数、友元非成员函数，友元类；
+    （3）特点：单向、不能传递、不能继承；
+
+1. 运算符重载的原则是什么？有哪些规则？
+    （1）原则：使用户自定义类型数据与内置类型数据操作一致；
+    （2）规则：必须具有一个自定义类型或枚举类型的操作数；
+               优先级和结合性不变；
+               短路特性消失；
+               不能重载不存在的运算符；
+
+2. 不能重载的运算符有哪几个？
+    （1）.
+    （2）.*
+    （3）:?
+    （4）::
+    （5）sizeof
+
+3. 运算符重载的形式有哪几种？
+    （1）普通函数；
+    （2）友元函数；
+    （3）成员函数；
+
+4. 自增自减运算符的区别？其形式是怎样的？返回值类型分别是什么？
+    （1）区别：自增运算符分为前置++和后置++，自减运算符分为前置--和后置--；
+               前置++先将操作数自增，然后再计算表达式值，后置++先计算表达式值，再将操作数自增；
+    （2）形式：前置和后置两种形式；
+    （3）前置：返回this对象自身的引用；
+         后置：返回对象的拷贝；
+
+5. 实现String类的其它运算符的重载
+
+class String {
+public:
+	String();
+	String(const char *);
+	String(const String&);
+	~String();
+	String &operator=(const String &);
+	String &operator=(const char *);
+
+	String &operator+=(const String &);
+	String &operator+=(const char *);
+
+	char &operator[](std::size_t index);
+	const char &operator[](std::size_t index) const;
+
+	std::size_t size() const;
+	const char* c_str() const;
+
+	friend bool operator==(const String &, const String &);
+	friend bool operator!=(const String &, const String &);
+
+	friend bool operator<(const String &, const String &);
+	friend bool operator>(const String &, const String &);
+	friend bool operator<=(const String &, const String &);
+	friend bool operator>=(const String &, const String &);
+
+	friend std::ostream &operator<<(std::ostream &os, const String &s);
+	friend std::istream &operator>>(std::istream &is, String &s);
+
+private:
+	char * _pstr;
+};
+
+String operator+(const String &, const String &);
+String operator+(const String &, const char *);
+String operator+(const char *, const String &);
