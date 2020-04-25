@@ -1,0 +1,1000 @@
+ 1040  cd ..
+ 1041  ls
+ 1042  mkdir 7.30
+ 1043  ls
+ 1044  cd 7.30
+ 1045  ls
+ 1046  ls -la
+ 1047  cd
+ 1048  ls
+ 1049  rm wdxly/
+ 1050  rm -r wdxly/
+ 1051  ls
+ 1052  cd wangdao/
+ 1053  ls
+ 1054  cd c++/
+ 1055  ls
+ 1056  cd 2018
+ 1057  ls
+ 1058  cd 7.30
+ 1059  ls
+ 1060  ls
+ 1061  cd wangdao/
+ 1062  ls
+ 1063  cd c++/
+ 1064  ls
+ 1065  cd 2018
+ 1066  ls
+ 1067  cd 7.30
+ 1068  ls
+ 1069  cd ..
+ 1070  ls
+ 1071  cd 7.26
+ 1072  ls
+ 1073  cd homework/
+ 1074  ls
+ 1075  cd 02_stack.cc
+ 1076  vim 02_stack.cc
+ 1077  ls
+ 1078  vim 03_queue.cc
+ 1079  ls
+ 1080  vim 04_mutexlock.cc
+ 1081  ls
+ 1082  vim 04_condition.cc
+ 1083  cd wangdao/
+ 1084  ls
+ 1085  cd c++/
+ 1086  ls
+ 1087  cd 2018
+ 1088  ls
+ 1089  cd 7.25
+ 1090  ls
+ 1091  cd ..
+ 1092  cd 7.26
+ 1093  ls
+ 1094  cd homework/
+ 1095  ls
+ 1096  vim 03_queue.cc
+ 1097  g++ 03_queue.cc -o 03_queue
+ 1098  ./03_queue 
+ 1099  vim 03_queue.cc
+ 1100  cd
+ 1101  cd wangdao/
+ 1102  ls
+ 1103  cd c++/
+ 1104  ls
+ 1105  cd 2018
+ 1106  ls
+ 1107  cd 7.30
+ 1108  ls
+ 1109  vim Queue.cc
+ 1110  ls
+ 1111  cd wangdao/
+ 1112  ls
+ 1113  cd c++/
+ 1114  ls
+ 1115  cd 2018
+ 1116  ls
+ 1117  cd 7.30
+ 1118  ls
+ 1119  ls
+ 1120  cd wangdao/
+ 1121  ls
+ 1122  cd c++/
+ 1123  ls
+ 1124  cd 2018
+ 1125  ls
+ 1126  cd 7.30
+ 1127  ls
+ 1128  vim String.cc
+ 1129  g++ String.cc -o String
+ 1130  ./String 
+ 1131  vim Stack.cc
+ 1132  g++ Stack.cc -o Stack
+ 1133  ./St
+ 1134  ./Stack 
+ 1135  vim Stack.cc
+ 1136  vim Queue.cc
+ 1137  g++ Queue.cc -o Queue
+ 1138  ./Queue 
+ 1139  vim Queue.cc
+ 1140  g++ Queue.cc -o Queue
+ 1141  ./Queue 
+ 1142  vim Queue.cc
+ 1143  g++ Queue.cc -o Queue
+ 1144  ./Queue 
+ 1145  vim Queue.cc
+ 1146  g++ Queue.cc -o Queue
+ 1147  ./Queue 
+ 1148  vim Queue.cc
+ 1149  g++ Queue.cc -o Queue
+ 1150  ./Q
+ 1151  ./Queue 
+ 1152  vim Queue.cc
+ 1153  g++ Queue.cc -o Queue
+ 1154  ./Queue 
+ 1155  vim Queue.cc
+ 1156  g++ Queue.cc -o Queue
+ 1157  ./Queue 
+ 1158  vim Queue.cc
+ 1159  g++ Queue.cc -o Queue
+ 1160  ./Queue 
+ 1161  vim Queue.cc
+ 1162  g++ Queue.cc -o Queue
+ 1163  ./Queue 
+ 1164  vim Queue.cc
+ 1165  g++ Queue.cc -o Queue
+ 1166  ./Queue 
+ 1167  vim Queue.cc
+ 1168  g++ Queue.cc -o Queue
+ 1169  ./Queue 
+ 1170  vim Queue.cc
+ 1171  g++ Queue.cc -o Queue
+ 1172  ./Queue 
+ 1173  vim Queue.cc
+ 1174  g++ Queue.cc -o Queue
+ 1175  ./Queue 
+ 1176  vim Queue.cc
+ 1177  g++ Queue.cc -o Queue
+ 1178  ./Queue 
+ 1179  vim Queue.cc
+ 1180  g++ Queue.cc -o Queue
+ 1181  ./Queue 
+ 1182  vim Queue.cc
+ 1183  g++ Queue.cc -o Queue
+ 1184  ./Queue 
+ 1185  vim Queue.cc
+ 1186  g++ Queue.cc -o Queue
+ 1187  ./Queue 
+ 1188  vim Queue.cc
+ 1189  g++ Queue.cc -o Queue
+ 1190  gdb ./Queue 
+ 1191  gdb Queue 
+ 1192  gdb ./Queue 
+ 1193  g++ -o Queue -g Queue.cc
+ 1194  gdb ./Q
+ 1195  g++ -g Queue.cc -o Queue
+ 1196  gdb Queue 
+ 1197  ls
+ 1198  gdb ./Queue 
+ 1199  vim Queue.cc
+ 1200  g++ Queue.cc -o Queue
+ 1201  ./Queue 
+ 1202  vim Queue.cc
+ 1203  g++ Queue.cc -o Queue
+ 1204  ./Queue 
+ 1205  vim Queue.cc
+ 1206  g++ Queue.cc -o Queue
+ 1207  ./Queue 
+ 1208  vim Queue.cc
+ 1209  g++ Queue.cc -o Queue
+ 1210  ./Queue 
+ 1211  vim Queue.cc
+ 1212  vim stream.cc
+ 1213  g++ stream.cc -o stream
+ 1214  cd ..
+ 1215  ls
+ 1216  cd 7.26
+ 1217  ls
+ 1218  cd homework/
+ 1219  ls
+ 1220  vim 03_queue.cc
+ 1221  cd ..
+ 1222  ls
+ 1223  cd ..
+ 1224  ls
+ 1225  cd 7.30
+ 1226  ls
+ 1227  mkdir thread
+ 1228  ls
+ 1229  cd thread/
+ 1230  ls
+ 1231  vim MutexLock.h
+ 1232  vim MutexLock.cc
+ 1233  vim MutexLock.h
+ 1234  vim Condition.h
+ 1235  vim Condition.cc
+ 1236  vim MutexLock.h
+ 1237  vim test.cc
+ 1238  g++ test.cc -o test
+ 1239  g++ test.cc -o test -lpthread
+ 1240  gcc -c test.cc MutexLock.cc Condition.cc -o test -lpthread
+ 1241  g++ -o test test.cc -lpthread
+ 1242  g++ test.cc -o test
+ 1243  g++ test.cc MutexLock.cc Condition.cc -o test -lpthread
+ 1244  ls
+ 1245  ./test 
+ 1246  vim test.cc
+ 1247  cd ..
+ 1248  l
+ 1249  ls
+ 1250  vim Dictionary.cc
+ 1251  g++ Dictionary.cc -o Dictionary
+ 1252  vim Dictionary.cc 
+ 1253  g++ Dictionary.cc -o Dictionary
+ 1254  vim Dictionary.cc 
+ 1255  g++ Dictionary.cc -o Dictionary
+ 1256  vim Dictionary.cc 
+ 1257  g++ Dictionary.cc -o Dictionary
+ 1258  vim Dictionary.cc 
+ 1259  g++ Dictionary.cc -o Dictionary
+ 1260  ./Dictionary 
+ 1261  ls
+ 1262  vim dict.txt 
+ 1263  mkdir mylogger
+ 1264  cd mylogger/
+ 1265  vim Mylogger.h
+ 1266  vim Mylogger.cc
+ 1267  vim Mylogger.h
+ 1268  vim test.cc
+ 1269  g++ test.cc Mylogger.cc -o test
+ 1270  g++ test.cc Mylogger.cc-o test -llog4cpp -lpthread
+ 1271  g++ test.cc Mylogger.cc -o test -llog4cpp -lpthread
+ 1272  ls
+ 1273  ./test 
+ 1274  vim test.cc
+ 1275  g++ test.cc Mylogger.cc -o test -llog4cpp -lpthread
+ 1276  ./test 
+ 1277  ls
+ 1278  vim mylogger.log 
+ 1279  ls
+ 1280  cd ..
+ 1281  ls
+ 1282  cd ..
+ 1283  ls
+ 1284  cd 7.30
+ 1285  ls
+ 1286  git add .
+ 1287  git commit -m 'c++'
+ 1288  git push
+ 1289  ls
+ 1290  cd .
+ 1291  cd ..
+ 1292  ls
+ 1293  cd wangdao/
+ 1294  ls
+ 1295  cd c++/
+ 1296  ls
+ 1297  cd 2018
+ 1298  ls
+ 1299  mkdir 7.31
+ 1300  ls
+ 1301  cd 7.31
+ 1302  ls
+ 1303  vim Point.cc
+ 1304  g++ Point.cc -o Point
+ 1305  ls
+ 1306  ./Point 
+ 1307  vim Line.cc
+ 1308  g++ Line.cc -o Line
+ 1309  ./Line 
+ 1310  cp Line.cc Line2.cc
+ 1311  ls
+ 1312  vim Line2.cc 
+ 1313  g++ Line2.cc -o Line2
+ 1314  ./Line2
+ 1315  vim sizeof.cc
+ 1316  g++ sizeof.cc -o sizeof
+ 1317  ls
+ 1318  ./sizeof 
+ 1319  vim sizeof.cc
+ 1320  g++ sizeof.cc -o sizeof
+ 1321  ./sizeof 
+ 1322  vim Complex.cc
+ 1323  cd w
+ 1324  cd wangdao/
+ 1325  ls
+ 1326  cd c++/
+ 1327  ls
+ 1328  cd 2018
+ 1329  ls
+ 1330  cd 7.31
+ 1331  ls
+ 1332  vim Complex.cc
+ 1333  g++ Complex.cc -o Complex
+ 1334  ./Complex 
+ 1335  vim Complex.cc
+ 1336  g++ Complex.cc -o Complex
+ 1337  ./Complex 
+ 1338  vim Complex.cc
+ 1339  g++ Complex.cc -o Complex
+ 1340  ./Complex 
+ 1341  vim Complex.cc
+ 1342  g++ Complex.cc -o Complex
+ 1343  ./Complex 
+ 1344  vim Complex.cc
+ 1345  g++ Complex.cc -o Complex
+ 1346  vim Complex.cc
+ 1347  g++ Complex.cc -o Complex
+ 1348  vim Complex.cc
+ 1349  g++ Complex.cc -o Complex
+ 1350  ls
+ 1351  ./Complex 
+ 1352  vim Complex.cc
+ 1353  g++ Complex.cc -o Complex
+ 1354  ./Complex 
+ 1355  vim Complex.cc
+ 1356  g++ Complex.cc -o Complex
+ 1357  vim Complex2.cc
+ 1358  vim Complex2.cc 
+ 1359  g++ Complex2.cc -o Complex2
+ 1360  vim Complex2.cc 
+ 1361  g++ Complex2.cc -o Complex2
+ 1362  vim Complex2.cc
+ 1363  g++ Complex2.cc -o Complex2
+ 1364  ./Complex2
+ 1365  cp Complex2.cc Complex3.cc
+ 1366  vim Complex3.cc 
+ 1367  cp Complex2.cc Complex3.cc
+ 1368  ls
+ 1369  vim Complex3.cc
+ 1370  g++ Complex3.cc -o Complex3
+ 1371  ./Complex3
+ 1372  vim Complex3.cc
+ 1373  g++ Complex3.cc -o Complex3
+ 1374  vim Complex3.cc
+ 1375  g++ Complex3.cc -o Complex3
+ 1376  ./Complex3
+ 1377  vim String.cc
+ 1378  g++ String.cc -o String
+ 1379  ./String 
+ 1380  vim Demo.cc
+ 1381  g++ Demo.cc -o Demo
+ 1382  vim Demo.cc 
+ 1383  g++ Demo.cc -o Demo
+ 1384  ./Demo 
+ 1385  vim CharArray.cc
+ 1386  g++ CharArray.cc -o CharArray
+ 1387  ./CharArray 
+ 1388  vim Data.cc
+ 1389  g++ Data.cc -o Data
+ 1390  vim Data.cc 
+ 1391  g++ Data.cc -o Data
+ 1392  ./Data 
+ 1393  vim typeCastFunction.cc
+ 1394  cp Complex.cc typeCastFunction.cc
+ 1395  vim typeCastFunction.cc 
+ 1396  g++ typeCastFunction.cc -o typeCastFunction
+ 1397  ./typeCastFunction 
+ 1398  cp typeCastFunction.cc typeCastFunction2.cc
+ 1399  vim typeCastFunction2.cc 
+ 1400  g++ typeCastFunction2.cc -o typeCastFunction2
+ 1401  ./typeCastFunction2
+ 1402  vim typeCastFunction2.cc
+ 1403  vim nestClass.h
+ 1404  vim mestClass.cc
+ 1405  mv mestClass.cc nestClass.cc
+ 1406  ls
+ 1407  g++ nestClass.cc -o nestClass
+ 1408  ./nestClass 
+ 1409  vim nestClass.h
+ 1410  vim nestClass.cc
+ 1411  ls
+ 1412  cd ..
+ 1413  ls
+ 1414  cd 7.31
+ 1415  ls
+ 1416  mkdir homework
+ 1417  ls
+ 1418  cd homework/
+ 1419  ls
+ 1420  vim 0731_homework.txt 
+ 1421  ls
+ 1422  vim String.cc
+ 1423  g++ String.cc -o String
+ 1424  ./String 
+ 1425  vim String.cc
+ 1426  g++ String.cc -o String
+ 1427  ./String 
+ 1428  vim String.cc
+ 1429  g++ String.cc -o String
+ 1430  ./String 
+ 1431  vim String.cc
+ 1432  g++ String.cc -o String
+ 1433  ./String 
+ 1434  vim String.cc
+ 1435  g++ String.cc -o String
+ 1436  ./String 
+ 1437  vim String.cc
+ 1438  g++ String.cc -o String
+ 1439  ls
+ 1440  ./String 
+ 1441  vim String.cc
+ 1442  g++ String.cc -o String
+ 1443  vim String.cc
+ 1444  g++ String.cc -o String
+ 1445  ./String 
+ 1446  vim String.cc
+ 1447  g++ String.cc -o String
+ 1448  ./String 
+ 1449  vim String.cc
+ 1450  g++ String.cc -o String
+ 1451  ./String 
+ 1452  vim String.cc
+ 1453  g++ String.cc -o String
+ 1454  ./String 
+ 1455  vim String.cc
+ 1456  g++ String.cc -o String
+ 1457  ./String 
+ 1458  vim String.cc
+ 1459  g++ String.cc -o String
+ 1460  ./String 
+ 1461  vim String.cc
+ 1462  g++ String.cc -o String
+ 1463  ./String 
+ 1464  vim String.cc
+ 1465  g++ String.cc -o String
+ 1466  ./String 
+ 1467  vim String.cc
+ 1468  g++ String.cc -o String
+ 1469  ./String 
+ 1470  vim String.cc
+ 1471  g++ String.cc -o String
+ 1472  ./String 
+ 1473  vim String.cc
+ 1474  g++ String.cc -o String
+ 1475  vim String.cc
+ 1476  g++ String.cc -o String
+ 1477  vim String.cc
+ 1478  g++ String.cc -o String
+ 1479  ls
+ 1480  ./String 
+ 1481  vim String.cc
+ 1482  g++ String.cc -o String
+ 1483  ls
+ 1484  ./String 
+ 1485  vim String.cc
+ 1486  g++ String.cc -o String
+ 1487  ./String 
+ 1488  ls
+ 1489  cd ..
+ 1490  ls
+ 1491  cd ..
+ 1492  ls
+ 1493  cd 7.31
+ 1494  ls
+ 1495  git add .
+ 1496  git commit -m 'c++'
+ 1497  git push
+ 1498  cd
+ 1499  ls
+ 1500  mkdir adventure
+ 1501  ls
+ 1502  cd adventure/
+ 1503  ls
+ 1504  vim 01_chapter.c
+ 1505  gcc 01_chapter.c -o 01_chapter
+ 1506  ls
+ 1507  ./01_chapter 
+ 1508  cp 01_chapter.cc 02_chapter.cc
+ 1509  ls
+ 1510  cp 01_chapter.c 02_chapter.c
+ 1511  vim 02_chapter.c 
+ 1512  gcc 02_chapter.c -o 02_chapter
+ 1513  ./02_chapter 
+ 1514  ls
+ 1515  cp 02_chapter.c 03_chapter.c
+ 1516  ls
+ 1517  vim 03_location.h
+ 1518  vim 03_location.c
+ 1519  ls
+ 1520  vim 03_chapter.c 
+ 1521  gcc 03_chapter.c 03_location.c -o 03_chapter
+ 1522  ./03_chapter 
+ 1523  vim 03_location.c
+ 1524  vim 03_chapter.c
+ 1525  gcc 03_chapter.c -o 03_chapter
+ 1526  gcc 03_chapter.c 03_location.c -o 03_chapter
+ 1527  ./03_chapter 
+ 1528  vim 03_location.c
+ 1529  vim 03_chapter.c
+ 1530  vim 03_location.c
+ 1531  gcc 03_chapter.c 03_location.c -o 03_chapter
+ 1532  ./03_chapter 
+ 1533  vim 03_location.c
+ 1534  gcc 03_chapter.c 03_location.c -o 03_chapter
+ 1535  ./03_chapter 
+ 1536  ls
+ 1537  cd ..
+ 1538  ls
+ 1539  cd adventure/
+ 1540  ls
+ 1541  cp 03_chapter.c 04_chapter.c
+ 1542  ls
+ 1543  cp 03_location.c 04_location.c
+ 1544  ls
+ 1545  cp 03_location.h 04_location.h
+ 1546  ls
+ 1547  vim 04_object.h
+ 1548  vim 04_object.c
+ 1549  vim 04_misc.h
+ 1550  ls
+ 1551  vim 04_object.h
+ 1552  vim 04_misc.c
+ 1553  vim 04_location.h
+ 1554  vim 04_location.c
+ 1555  ls
+ 1556  gcc 04_chapter.c 04_location.c 04_misc.c 04_object.c -o 04_chapter
+ 1557  ./04
+ 1558  ./04_chapter 
+ 1559  ls
+ 1560  cd .
+ 1561  cd
+ 1562  ls
+ 1563  cd wangdao/
+ 1564  ls
+ 1565  cd c++/
+ 1566  ls
+ 1567  cd 2018
+ 1568  ls
+ 1569  cd 7.31
+ 1570  ls
+ 1571  su
+ 1572  cd wangdao/
+ 1573  cd c++/
+ 1574  ls
+ 1575  cd 2018
+ 1576  ls
+ 1577  cd 7.31
+ 1578  ls
+ 1579  cd ..
+ 1580  ls
+ 1581  g++ --version
+ 1582  ls
+ 1583  mkdir 8.1
+ 1584  ls
+ 1585  vim autoReleaseSingleton1.cc
+ 1586  g++ autoReleaseSingleton1.cc -o autoReleaseSingleton1
+ 1587  ./autoReleaseSingleton1 
+ 1588  vim atexit.cc
+ 1589  g++ atexit.cc -o atexit
+ 1590  ./atexit 
+ 1591  vim atexit.cc
+ 1592  cp autoReleaseSingleton1.cc autoReleaseSingleton2.cc
+ 1593  vim autoReleaseSingleton2.cc 
+ 1594  g++ autoReleaseSingleton2.cc -o autoReleaseSingleton2
+ 1595  ./autoReleaseSingleton2
+ 1596  cp autoReleaseSingleton2.cc autoReleaseSingleton3.cc
+ 1597  vim autoReleaseSingleton3.cc
+ 1598  g++ autoReleaseSingleton3.cc -o autoReleaseSingleton3
+ 1599  g++ autoReleaseSingleton3.cc -o autoReleaseSingleton3 -lpthread
+ 1600  ./autoReleaseSingleton3
+ 1601  ls
+ 1602  mv *.c ./8.1
+ 1603  mv *.cc ./8.1
+ 1604  ls
+ 1605  mv a* ./8.1
+ 1606  ls
+ 1607  cd 8.1
+ 1608  ls
+ 1609  mkdir cow
+ 1610  ls
+ 1611  cd cow/
+ 1612  ls
+ 1613  vim std_string.cc
+ 1614  g++ std_string.cc -o std_string
+ 1615  ./std_string 
+ 1616  g++ --version
+ 1617  vim std_string.cc
+ 1618  vim cowString.cc
+ 1619  vim cowString.cc 
+ 1620  g++ cowString.cc -o cowString
+ 1621  vim cowString.cc 
+ 1622  g++ cowString.cc -o cowString
+ 1623  ./cowString 
+ 1624  vim cowString.cc
+ 1625  g++ cowString.cc -o cowString
+ 1626  ./cowString 
+ 1627  vim cowString.cc
+ 1628  g++ cowString.cc -o cowString
+ 1629  ./cowString 
+ 1630  vim cowString.cc
+ 1631  g++ cowString.cc -o cowString
+ 1632  ./cowString 
+ 1633  vim cowString.cc
+ 1634  g++ cowString.cc -o cowString
+ 1635  ./cowString 
+ 1636  vim cowString.cc
+ 1637  g++ cowString.cc -o cowString
+ 1638  ./cowString 
+ 1639  vim cowString.cc
+ 1640  g++ cowString.cc -o cowString
+ 1641  ./cowString 
+ 1642  vim cowString.cc
+ 1643  g++ cowString.cc -o cowString
+ 1644  ./cowString 
+ 1645  vim cowString.cc
+ 1646  g++ cowString.cc -o cowString
+ 1647  ./cowString 
+ 1648  vim cowString.cc
+ 1649  g++ cowString.cc -o cowString
+ 1650  ./cowString 
+ 1651  vim cowString.cc
+ 1652  g++ cowString.cc -o cowString
+ 1653  ./cowString 
+ 1654  ls
+ 1655  cd ..
+ 1656  ls
+ 1657  git add .
+ 1658  git commit -m 'cow'
+ 1659  git push
+ 1660  ls
+ 1661  cd wangdao/
+ 1662  ls
+ 1663  cd c++/
+ 1664  ls
+ 1665  cd 2018
+ 1666  ls
+ 1667  mkdir 8.2
+ 1668  ls
+ 1669  cd 8.2
+ 1670  ls
+ 1671  cd ..
+ 1672  cd 8.1
+ 1673  ls
+ 1674  mkdir homework
+ 1675  ls
+ 1676  cp autoReleaseSingleton1.cc autoReleaseSingleton3.cc ./homework/
+ 1677  ls
+ 1678  cd homework/
+ 1679  ls
+ 1680  cd ..
+ 1681  ls
+ 1682  cd cow/
+ 1683  ls
+ 1684  cp cowString.cc ../homework/
+ 1685  ls
+ 1686  cd ..
+ 1687  ls
+ 1688  cd homework/
+ 1689  ls
+ 1690  g++ autoReleaseSingleton1.cc -o autoReleaseSingleton
+ 1691  ./autoReleaseSingleton 
+ 1692  ls
+ 1693  rm autoReleaseSingleton
+ 1694  ls
+ 1695  g++ autoReleaseSingleton1.cc -o autoReleaseSingleton1
+ 1696  g++ autoReleaseSingleton2.cc -o autoReleaseSingleton2
+ 1697  ls
+ 1698  g++ autoReleaseSingleton3.cc -o autoReleaseSingleton3
+ 1699  g++ autoReleaseSingleton3.cc -o autoReleaseSingleton3 -lpthread
+ 1700  ls
+ 1701  ./autoReleaseSingleton3
+ 1702  ls
+ 1703  g++ cowString.cc -o cowString
+ 1704  ./cowString 
+ 1705  ls
+ 1706  cd ..
+ 1707  ls
+ 1708  cd homework/
+ 1709  git add .
+ 1710  git commit -m 'cow'
+ 1711  git push
+ 1712  cd ..
+ 1713  cd 8.2
+ 1714  ls
+ 1715  cd
+ 1716  ls
+ 1717  su
+ 1718  ls
+ 1719  su
+ 1720  ls
+ 1721  rm boost_1_66_0.tar.gz 
+ 1722  ls
+ 1723  cd wangdao/
+ 1724  ls
+ 1725  cd c++/
+ 1726  ls
+ 1727  cd 2018
+ 1728  ls
+ 1729  cd 8.2
+ 1730  ls
+ 1731  vim testBoost.cc
+ 1732  g++ testBoost.cc -o testBoost
+ 1733  ./testBoost 
+ 1734  vim testBoost.cc
+ 1735  ls
+ 1736  mkdir boost
+ 1737  ls
+ 1738  mv test* ./boost/
+ 1739  ls
+ 1740  mkdir tinyxml2
+ 1741  ls
+ 1742  cd tinyxml2/
+ 1743  ls
+ 1744  git clone https://github.com/leethomason/tinyxml2.git
+ 1745  ls
+ 1746  vim test.xml
+ 1747  vim main.cpp
+ 1748  g++ main.cpp tinyxml2.cpp -o main
+ 1749  ./main
+ 1750  vim main.cpp
+ 1751  ls
+ 1752  rm main
+ 1753  ls
+ 1754  mv test.xml test1.xml
+ 1755  ls
+ 1756  mv main.cpp test1.cpp
+ 1757  ls
+ 1758  vim test1.cpp 
+ 1759  ls
+ 1760  g++ test1.cpp tinyxml2.cpp -o test1
+ 1761  ./test1 
+ 1762  vim test2.xml
+ 1763  vim test2.cpp
+ 1764  g++ test2.cpp tinyxml2.cpp -o test2
+ 1765  ./test2
+ 1766  vim test3.cpp
+ 1767  touch test3.xml
+ 1768  g++ test3.cpp tinyxml2.cpp -o test3
+ 1769  ./test3
+ 1770  cat test3.xml 
+ 1771  vim test3.cpp
+ 1772  rm test3.xml 
+ 1773  ls
+ 1774  touch test3.xml
+ 1775  g++ test3.cpp tinyxml2.cpp -o test3
+ 1776  ./test3
+ 1777  cat test3.xml
+ 1778  vim test3.cpp
+ 1779  rm test3.xml 
+ 1780  ls
+ 1781  touch test3.xml
+ 1782  g++ test3.cpp tinyxml2.cpp -o test3
+ 1783  vim test3.cpp
+ 1784  g++ test3.cpp tinyxml2.cpp -o test3
+ 1785  vim test3.cpp
+ 1786  g++ test3.cpp tinyxml2.cpp -o test3
+ 1787  ls
+ 1788  ./test3
+ 1789  ls
+ 1790  cat text3.xml
+ 1791  cat test3.xml
+ 1792  rm test3.xml
+ 1793  ls
+ 1794  ./test3
+ 1795  cat test3.xml
+ 1796  vim test3.cpp
+ 1797  ls
+ 1798  vim test2.cpp
+ 1799  vim test3.cpp
+ 1800  g++ test3.cpp tinyxml2.cpp -o test3
+ 1801  ./test3
+ 1802  cat test3.xml
+ 1803  vim test3.cpp
+ 1804  ls
+ 1805  rm test3.xml
+ 1806  ls
+ 1807  g++ test3.cpp tinyxml2.cpp -o test3
+ 1808  ./test3
+ 1809  vim test3.cpp
+ 1810  g++ test3.cpp tinyxml2.cpp -o test3
+ 1811  vim test3.cpp
+ 1812  g++ test3.cpp tinyxml2.cpp -o test3
+ 1813  ./test3
+ 1814  rm test3.xml
+ 1815  ls
+ 1816  ./test3
+ 1817  cat test3.xml
+ 1818  vim test3.cpp
+ 1819  g++ test3.cpp tinyxml2.cpp -o test3
+ 1820  ./test3
+ 1821  vim test3.cpp
+ 1822  g++ test3.cpp tinyxml2.cpp -o test3
+ 1823  ./test3
+ 1824  vim test3.cpp
+ 1825  g++ test3.cpp tinyxml2.cpp -o test3
+ 1826  ./test3
+ 1827  cat test3.xml
+ 1828  vim test3.cpp
+ 1829  g++ test3.cpp tinyxml2.cpp -o test3
+ 1830  ./test3
+ 1831  cat test3.xml
+ 1832  vim test3.cpp
+ 1833  g++ test3.cpp tinyxml2.cpp -o test3
+ 1834  vim test3.cpp
+ 1835  g++ test3.cpp tinyxml2.cpp -o test3
+ 1836  ./test3
+ 1837  cat test3.xml
+ 1838  vim test3.cpp
+ 1839  g++ test3.cpp tinyxml2.cpp -o test3
+ 1840  ./test3
+ 1841  ls
+ 1842  cd ..
+ 1843  ls
+ 1844  cd ..
+ 1845  ls
+ 1846  cd 8.2
+ 1847  ls
+ 1848  git add .
+ 1849  git commit -m 'cow'
+ 1850  git push
+ 1851  ls
+ 1852  uname -a
+ 1853  cat /etc/issue
+ 1854  sudo apt install net-tools
+ 1855  cat /etc/passwd
+ 1856  sudo userdel test1
+ 1857  cat /etc/passwd
+ 1858  sudo useradd -m test1 -s /bin/bash
+ 1859  cat /etc/passwd
+ 1860  sudo passwd test1
+ 1861  su test1
+ 1862  exit
+ 1863  cd wangdao/
+ 1864  ls
+ 1865  cd linux/
+ 1866  ls
+ 1867  cd socket/
+ 1868  ls
+ 1869  cd ..
+ 1870  ls
+ 1871  cd ..
+ 1872  ls
+ 1873  cd linux/
+ 1874  mkdir 2016
+ 1875  ls
+ 1876  mv 3* -r ./2016
+ 1877  mv 3* ./2016
+ 1878  ls
+ 1879  mv 4* ./2016
+ 1880  ls
+ 1881  mv socket/ ./2016
+ 1882  ls
+ 1883  cd 2016
+ 1884  ls
+ 1885  cd ..
+ 1886  ls
+ 1887  mkdir 2019
+ 1888  ls
+ 1889  cd 2019
+ 1890  ls
+ 1891  cd ..
+ 1892  ls
+ 1893  cd c
+ 1894  cd c++/
+ 1895  ls
+ 1896  cd 2016
+ 1897  ls
+ 1898  cd ..
+ 1899  cd 2018
+ 1900  ls
+ 1901  cd ..
+ 1902  ls
+ 1903  cd linux/
+ 1904  ls
+ 1905  cd 2019
+ 1906  ls
+ 1907  mkdir day01
+ 1908  ls
+ 1909  ls
+ 1910  cd /
+ 1911  ls
+ 1912  cd /home
+ 1913  ls
+ 1914  cd /
+ 1915  l
+ 1916  ls
+ 1917  cd ..
+ 1918  ls
+ 1919  cd
+ 1920  ls
+ 1921  cd ..
+ 1922  ls
+ 1923  cd m311riko/
+ 1924  ls
+ 1925  pwd
+ 1926  cd /
+ 1927  pwd
+ 1928  cd ..
+ 1929  ls
+ 1930  pwd
+ 1931  cd
+ 1932  pwd
+ 1933  ls
+ 1934  mkdir father
+ 1935  ls
+ 1936  cd father/
+ 1937  s
+ 1938  cd ..
+ 1939  ls
+ 1940  rm father/
+ 1941  ls
+ 1942  rm -r father/
+ 1943  ls
+ 1944  mkdir query
+ 1945  ls
+ 1946  cd query/
+ 1947  ls
+ 1948  vim Record.cc
+ 1949  g++ Record.cc -o Record
+ 1950  vim Record.cc 
+ 1951  g++ Record.cc -o Record
+ 1952  ./Record 
+ 1953  vim Record.cc
+ 1954  cd wangdao/
+ 1955  ls
+ 1956  cd c++/
+ 1957  ls
+ 1958  cd 2018
+ 1959  ls
+ 1960  cd
+ 1961  ls
+ 1962  cd query
+ 1963  ls
+ 1964  vim Record.cc
+ 1965  g++ Record.cc -o Record
+ 1966  vim Record.cc
+ 1967  g++ Record.cc -o Record
+ 1968  ./Record 
+ 1969  ls
+ 1970  vim test.txt 
+ 1971  Record
+ 1972  ./Record 
+ 1973  vim test.txt 
+ 1974  vim Record.cc
+ 1975  rm test.txt 
+ 1976  ls
+ 1977  g++ Record.cc -o Record
+ 1978  ./Record 
+ 1979  vim test.txt 
+ 1980  vim Record.cc
+ 1981  rm test.txt 
+ 1982  ls
+ 1983  cd query/
+ 1984  ls
+ 1985  g++ Record.cc -o Record
+ 1986  ./Record 
+ 1987  vim test.txt 
+ 1988  vim Record.cc
+ 1989  ./Record 
+ 1990  cat test.txt 
+ 1991  vim test.txt 
+ 1992  vim Record.cc
+ 1993  rm test.txt 
+ 1994  ls
+ 1995  g++ Record.cc -o Record
+ 1996  ./Record 
+ 1997  cat test.txt 
+ 1998  vim test.txt 
+ 1999  rm test.txt 
+ 2000  vim Record.cc
+ 2001  cat /etc/passwd
+ 2002  pwd
+ 2003  ls
+ 2004  ls -a
+ 2005  ls /
+ 2006  ls -a /
+ 2007  ls -l
+ 2008  ls -lh
+ 2009  cd .
+ 2010  cd ..
+ 2011  cd /
+ 2012  cd~
+ 2013  cd ~
+ 2014  ls
+ 2015  cd
+ 2016  cd /etc
+ 2017  ls
+ 2018  cd -
+ 2019  ls
+ 2020  env
+ 2021  cd wangdao/
+ 2022  cd linux/
+ 2023  cd 2019
+ 2024  cd day01
+ 2025  touch file1
+ 2026  echo 1234 > file1
+ 2027  cp file1 file2
+ 2028  cat file2
+ 2029  mv file1 file3
+ 2030  rm file1
+ 2031  ls
+ 2032  rm file3
+ 2033  ls
+ 2034  cat file2
+ 2035  echo
+ 2036  ls -l
+ 2037  chmod 775 file2
+ 2038  ls -l
+ 2039  history > history.txt
