@@ -17,9 +17,9 @@
     }\
 }
 
-#define RET_CHECK(ret,num,msg)\
+#define ERROR_CHECK(ret,retVal,msg)\
 {\
-    if(ret==num)\
+    if(ret==retVal)\
     {\
         perror(msg);\
         return -1;\
