@@ -3,8 +3,9 @@
 void *threadFunc(void *p)
 {
     //获取时间并打印
-    time_t t=time(NULL);
-    struct tm *t1=gmtime(&t);
+    time_t t;
+    time(&t);   //获取当前时间
+    struct tm *t1=gmtime(&t);   //线程不安全接口
     printf("thread1:%d.%d.%d %d:%d%d\n",t1->tm_year+1900,
                                 t1->tm_mon+1,
                                 t1->tm_mday,
@@ -16,8 +17,6 @@ void *threadFunc(void *p)
     sleep(5);
 
     //获取时间并打印
-    t=time(NULL);
-    t1=gmtime(&t);
     printf("thread2:%d.%d.%d %d:%d%d\n",t1->tm_year+1900,
                                 t1->tm_mon+1,
                                 t1->tm_mday,
